@@ -24,8 +24,7 @@ public class FirstTest extends Conditions{
             driver.findElement(By.id("defaut.Email")).sendKeys(userName);
             driver.findElement(By.id("defaut.Password")).sendKeys(password);
             driver.findElement(By.id("defaut.Connecter")).click();
-            Thread.sleep(10000);
-            System.out.println("Finish test "+i);
+
         }
     }
 }
